@@ -1,8 +1,9 @@
 def prime?(x)
   
   if x <= 1 
-    return false
-  elsif
+    return true 
+  elsif x <= 3
+    return 
   
   
   else
