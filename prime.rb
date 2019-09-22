@@ -4,9 +4,9 @@ def prime?(x)
     return false
   elsif x <= 3
     return true
-  elsif x % 2 == 0
-    return false
   else
-    return true 
+    (2..n/2).none? do |x|
+     n % x == 0 
+    end 
   end
 end
