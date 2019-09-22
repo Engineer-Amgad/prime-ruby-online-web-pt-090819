@@ -4,7 +4,9 @@ def prime?(x)
     return false  
   elsif x <= 3
     return true 
+  elsif x % 2 == 0 
+    return true
   else
-    
+    return false
   end 
 end
